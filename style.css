@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 210px 1fr;
+    height: 100vh;
+}
+
+.aside {
+    padding: 12px;
+    background: #223a5f;
+}
+
+.user__image {
+    background: #6e7885;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+}
+
+.user__image img {
+    width: 150px;
+    height: 150px;
+}
+
+.user__name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    margin-top: 17px;
+}
+
+.user__position {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #C4C2C2;
+}
+
+.user__contacts {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    color: white;
+}
+
+.list {
+    margin-top: 20px;
+}
+
+.list__title {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.list ul {
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.list ul li {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
+.user__awards__title {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.awards .award__header {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.award__title {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.award__year {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.award__description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    color: #C4C2C2;
+}
+
+.links__title {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.link__item span {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.link__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.links__body {
+    margin-top: 10px;
+}
+
+.social__item {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.social__item__title {
+    color: white;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.social__item svg {
+    margin-right: 5px;
+}
+
+.title__with__underline {
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #233A5F;
+    margin-bottom: 10px;
+}
+
+.title__with__underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 32px;
+    height: 2px;
+    background-color: #233A5F;
+    border-radius: 2px;
+}
+
+.body {
+    padding: 32px;
+    max-width: 600px;
+}
+
+.description {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #878787;
+    margin-bottom: 30px;
+}
+
+.extended__list {
+    display: grid;
+    grid-template-columns: 170px 1fr;
+    margin-top: 30px;
+}
+
+.extended__list__left {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #2A2A2A;
+}
+
+.extended__list__right {
+    display: grid;
+    grid-template-columns: 15px 1fr;
+    column-gap: 10px;
+}
+
+.extended__list__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #2A2A2A;
+    margin-bottom: 10px;
+}
+
+.extended__list__subtitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    color: #2A2A2A;
+    margin-bottom: 10px;
+}
+
+.extended__list__description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    color: #878787;
+}
+
+.extended__list__icon {
+    width: 13px;
+    height: 13px;
+    background: #eee;
+    border-radius: 50%;
+}
